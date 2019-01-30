@@ -45,7 +45,7 @@ def add():
 #this is to lay down the students information in an clean manner
 def read():
     std_name = input("Enter the student name: ") #you enter the students name here
-    if std_name in dic: #this if statement is to check is the student data is in the dictionary
+    if std_name in dic: #this if statement is to check if the students data is in the dictionary
         print()
         print(std_name.capitalize(),"Scored") # .capitalize is just capitalize the first letter of the name (to make it more presentable)
         print(dic[std_name]['English'],"in English") # finds the marks in english
