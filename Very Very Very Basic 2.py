@@ -1,7 +1,7 @@
 def student1(eng_marks1, acc_marks1, ip_marks1):
     dic_std_name1 = {'eng':eng_marks1,'accounts':acc_marks1,'ip':ip_marks1}
     av1 = (eng_mark1 + ip_mark1 + acc_mark1) / 3
-    return av1
+    return av1 #Return command is explained in line 41
 
 def student2(eng_marks2, acc_marks2, ip_marks2):
     dic_std_name2 = {'eng':eng_marks2,'accounts':acc_marks2,'ip':ip_marks2}
@@ -37,6 +37,27 @@ print()
 av1 = student1(eng_mark1,acc_mark1,ip_mark1)
 av2 = student2(eng_mark2,acc_mark2,ip_mark2)
 av3 = student3(eng_mark3,acc_mark3,ip_mark3)
+'''
+let me explain def function and return properly
+for instence we have a program to find sum of two numbers
+
+def sum(x,y):
+    z = x + y
+    return z
+    
+Now the function requires 2 variables (the x and y given in the parenthesis)
+so lets create two variables
+
+num1 = 5
+num2 = 10
+
+Finally lets run the function
+
+the_sum_of_the_numbers = sum(num1,num2)
+
+what happenes here is num1 and num2 replaces x and y.
+also, the_sum_of_the_numbers will take the value of z because thats what we are returning or spitting out (probably returning is a better word)
+'''
 
 x = 0
 
